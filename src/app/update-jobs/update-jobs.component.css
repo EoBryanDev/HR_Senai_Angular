@@ -1,0 +1,12 @@
+.img-sizing{
+    width: 50px;
+}
+.container{
+    width: 100%;
+    
+   
+}
+
+.hov:hover{
+    background-color: aqua;
+}

@@ -1,0 +1,58 @@
+<section class="">
+    <div id="jobID" name="update" class="mb-4 mt-4">
+        
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <table class="table m-4 p-2 text-center">
+                    <thead>
+                      <tr >
+                        <th scope="col">ID Job</th>
+                        <th></th>
+                        <th scope="col">Job Oportunity</th>
+                        <th scope="col">Job Description</th>
+                        <th scope="col">Salary</th>
+                        <th></th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                      
+                        
+                        <tbody *ngFor="let job of jobs" scope="row" >
+                            
+                            <tr class="" id="jobID_{{job.id}}">
+                            
+                                <th  >{{job.id}}</th>
+                                <td><img src="assets\img\jobs\{{job.photo}}" class="card-img-top img-sizing " alt="..." width="50"></td>
+                                <td >{{job.name}}</td>
+                                <td>{{job.description}}</td>
+                                <td>{{job.salary}}</td>
+                                <td >
+                                    <button type="submit" class="btn btn-warning" routerLink="/update">Edit</button>
+                               </td>
+                                <td><button type="button"  (click)="delete(job.id)" class="btn btn-danger">Delete</button></td>
+                               
+                           <!--(click)="updateOption(job.id,job.photo,job.name,job.description,job.salary)"  -->
+                            </tr>       
+                            
+                        </tbody>
+                    
+                </table>
+            </div>
+        </div>
+    </div>
+    
+
+        
+
+            
+                
+                
+       
+          
+    
+
+
+</section>

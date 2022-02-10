@@ -1,0 +1,18 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "name": "DBA",
+      "photo": "photo1.jpg",
+      "description": "DB management and DB architecture",
+      "salary": "60000"
+    },
+    {
+      "id": "2",
+      "name": "FrontEnd Developer",
+      "photo": "photo2.jpg",
+      "description": "Developer in Angular",
+      "salary": "60000"
+    }
+  ]
+}

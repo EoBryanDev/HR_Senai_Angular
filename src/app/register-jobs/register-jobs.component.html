@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+            <h2>Register</h2>
+            <form>
+                <label for="">Id</label><input class="form-control" type="text" name="id" id="id" [(ngModel)]="job.id"><br>
+                <label for="">Name</label><input class="form-control" type="text" name="name" id="name" [(ngModel)]="job.name"><br>
+                <label for="">Photo</label><input class="form-control" type="text" name="photo" id="photo" [(ngModel)]="job.photo"><br>
+                <label for="">Description</label><input class="form-control" type="text" name="description" id="description"
+                    [(ngModel)]="job.description"><br>
+                <label for="">Salary</label><input class="form-control" type="text" name="salary" id="" [(ngModel)]="job.salary"><br>
+                <button class="btn btn-success btn-lg btn-block" type="button" (click)="register()">Register</button><br>
+                <!--<button class="btn btn-success btn-lg btn-block" type="button" (click)="update(job.id)">Update</button>-->
+
+
+            </form>
+        </div>
+    </div>
+</div>
